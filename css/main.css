@@ -256,9 +256,13 @@ header {
     border: 2px solid #a2f6be;
     background: #a2f6be !important;}
 .btn:focus {
-    color: #fff;
+    color: #a2f6be;
     border: 2px solid #a2f6be !important;
     background: none !important;}
+.btn:active {
+    color: #404d51;
+    border: 2px solid #a2f6be !important;
+    background: #a2f6be !important;}
 .no-padding {
     padding: 0 !important;
 }
