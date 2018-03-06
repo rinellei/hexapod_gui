@@ -1,0 +1,147 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+#nav-menu {
+  background: #202729;
+  margin: 0;
+  width: 100%;
+    height: 40px;
+  padding: 0;
+  display: block;
+  position: relative;
+  font-family: 'Segoe UI Regular', sans-serif;
+    z-index:990;
+    font-size: 15pt;
+    line-height: 40px;
+}
+#nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+}
+#nav-menu ul:after,
+#nav-menu:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#nav-menu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+    float: left;
+}
+#nav-menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    display: block;
+    color: #697E85;
+    line-height: 40px;
+    padding: 10px 15px 5px 15px;
+    text-align: center;
+    transition: all 250ms;
+    border-bottom: 5px solid #202729;
+}
+#nav-menu ul li a:hover {
+    border-bottom: 5px solid #697E85;
+}
+#nav-menu ul li.active {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    display: block;
+    color: #ccc;
+    cursor: default;
+    line-height: 40px;
+    padding: 10px 15px 5px 15px;
+    text-align: center;
+    transition: all 250ms;
+    border-bottom: 5px solid #ccc;
+}
+.open {
+    background: #202729;
+    margin-top: -2px !important;
+}
+#nav-menu #menu-button {
+    display: none;
+}
+@media all and (max-width: 800px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+
+    #nav-menu > ul {
+        max-height: 0;
+        overflow: hidden;
+      }
+  #nav-menu.align-right ul li a {
+    text-align: left;
+  }
+  #nav-menu.align-center > ul > li {
+    display: block;
+  }
+  #nav-menu > ul.open {
+    max-height: 1000px;
+    border-top: 1px solid rgba(110, 110, 110, 0.25);
+  }
+  #nav-menu ul {
+    width: 100%;
+  }
+  #nav-menu ul > li {
+    float: none;
+    width: 100%;
+  }
+  #nav-menu ul li.active {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 20px;
+      text-align: left;
+      border-bottom: 1px solid #404d51 !important;
+      background: #1b2122;
+  }
+  #nav-menu ul li a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 20px;
+      text-align: left;
+      border-bottom: 1px solid #404d51;
+  }
+  #nav-menu ul li a:hover {
+    background: #404d51;
+      color: #cccccc;
+      border-bottom: 1px solid #404d51;
+  }
+  #nav-menu ul > li:after {
+    display: none;
+  }
+  #nav-menu #menu-button {
+    float: right;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+      border: 1px solid #cccccc;
+      border-radius: 10%;
+      line-height: 0;
+    cursor: pointer;
+      margin: 10px;
+      transition: all 250ms;
+      display: block;
+  }
+  #nav-menu #menu-button:hover {
+    background: #0f1213;
+  }
+  #nav-menu #menu-button img {
+    color: #ccc;
+      width: 20px;
+      height: 20px;
+  }
+}
