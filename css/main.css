@@ -84,7 +84,8 @@ header {
     height: 60px;}
 .logo {
     margin-left: 2%;
-    width: 202px;
+    min-width: 202px;
+    max-width: 250px;
     float: left;
     position: relative;
     z-index:999;}
@@ -143,7 +144,7 @@ header {
 }
 .swipe-btn {
     position: absolute;
-    bottom: 20%;
+    bottom: 15%;
     padding: 5px;
     text-decoration: none;
     text-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
@@ -216,7 +217,7 @@ header {
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    font-size: 130%;
+    font-size: 12pt;
     font-family: "Segoe UI", sans-serif;
     color: rgb(160, 205, 175);
     line-height: 1.531;
@@ -233,7 +234,7 @@ header {
     position: absolute;
     width: 70%;
     text-align: center;
-    bottom: 20%;
+    bottom: 15%;
 }
 .btn {
     cursor: pointer !important;
@@ -256,8 +257,8 @@ header {
     background: #a2f6be !important;}
 .btn:focus {
     color: #fff;
-    border: 2px solid #a2f6be;
-    background: #697E84 !important;}
+    border: 2px solid #a2f6be !important;
+    background: none !important;}
 .no-padding {
     padding: 0 !important;
 }
