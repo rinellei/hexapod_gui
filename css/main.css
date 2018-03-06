@@ -84,7 +84,8 @@ header {
     height: 60px;}
 .logo {
     margin-left: 2%;
-    width: 202px;
+    min-width: 202px;
+    max-width: 250px;
     float: left;
     position: relative;
     z-index:999;}
