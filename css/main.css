@@ -216,8 +216,8 @@ header {
     overflow: auto;
     margin: auto;
     position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    font-size: 12pt;
+    top: -70px; left: 0; bottom: 0; right: 0;
+    font-size: 3.5vmin;
     font-family: "Segoe UI", sans-serif;
     color: rgb(160, 205, 175);
     line-height: 1.531;
@@ -233,6 +233,7 @@ header {
     font-size: 5vmin !important;
     position: absolute;
     width: 70%;
+	margin: 0 auto;
     text-align: center;
     bottom: 15%;
 }
