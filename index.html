@@ -84,7 +84,7 @@
 </div>
 
 <!-- MOBILE -->
-<div style="height: 100%;">
+<div id="mob-container" style="height: 100%;">
     <div class="xs-content hidden-md hidden-lg">
         <div class="xs-logotype">
             <object class="shadow"
@@ -126,5 +126,9 @@
 <script src="js/nav-menu.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
+<script>
+document.getElementById("mob-container").style.top= (window.innerHeight - document.getElementById("container").offsetHeight)/2 + 'px';
+document.getElementById("mob-container").style.left= (window.innerWidth - document.getElementById("container").offsetWidth)/2 + 'px';
+</script>
 </body>
 </html>
