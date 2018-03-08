@@ -6,6 +6,8 @@ $(function(){
         $('.swipe-btn').fadeOut(500);
     });
 
+    $
+
 });
 
 var count = 1;

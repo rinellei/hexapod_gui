@@ -144,6 +144,7 @@ header {
 }
 .swipe-btn {
     position: absolute;
+    margin: 0 auto;
     bottom: 15%;
     padding: 5px;
     text-decoration: none;
@@ -161,8 +162,9 @@ header {
 }
 .swipe-btn:hover {
     border-bottom: 2px solid #68e184;  color: #a2f6be !important;
-    text-decoration: none;}
+    text-decoration: none;
 }
+
 .swipe-btn:visited {
     text-decoration: none !important;
     color: #a2f6be !important;
