@@ -56,6 +56,7 @@
         </div>
     </div>
 </header>
+
 <div class="content hidden-sm hidden-xs">
     <div class="logotype">
         <object class="shadow"
@@ -65,6 +66,7 @@
         </object>
     </div>
 </div>
+
 <div class="container-fluid hidden-sm hidden-xs">
     <div class="row">
         <div class="col-md-5 col-md-offset-7 description-content">
@@ -83,9 +85,8 @@
     </div>
 </div>
 
-<!-- MOBILE -->
-<div id="mob-container" style="height: 100%;">
-    <div class="xs-content hidden-md hidden-lg">
+<div class="hidden-md hidden-lg text-center" style="height: 100%;">
+    <div class="xs-content">
         <div class="xs-logotype">
             <object class="shadow"
                     type="image/svg+xml"
@@ -93,10 +94,11 @@
                 <img src="images/hexapod.png"/>
             </object>
         </div>
-        <a class="swipe-btn" href="#description"><span class="glyphicon glyphicon-menu-down"></span> Learn more</a>
+        <a class="swipe-btn" href="#description"><span class="glyphicon glyphicon-menu-down"></span>Learn more</a>
     </div>
 
-    <div id="description" class="col-sm-12 hidden-md hidden-lg">
+
+    <div id="description" class="col-sm-12">
         <div class="xs-description">
             <!--* Instant automated payments. <br/>
             * No investment. <br/>
@@ -109,26 +111,23 @@
             Today there will be no mercy - today, all enemies will be defeated. Your pet become your right hand.
             Feed them, love them and he will bring you glory and fortune.
         </div>
-        <a class="xs-button-play btn btn-primary" href="https://t.me/hexapodbot" role="button">Play Game</a>
-        <div class="clear"></div>
+        <div class="xs-content">
+            <a class="xs-button-play btn btn-primary" href="https://t.me/hexapodbot" role="button">Play Game</a>
+            <div class="clear"></div>
+        </div>
     </div>
 </div>
-<!-- /MOBILE -->
 
 
 <footer class="footer navbar-fixed-bottom">
     <div class="copyright">&copy;Copyright Hexapod. All rights reserved. 2018.</div>
     <div class="powered-by">Powered by <a href="#">RinEllei</a></div>
 </footer>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>-->
+
 <script src="js/jquery331.min.js" type="text/javascript"></script>
 <script src="js/main.js"></script>
 <script src="js/nav-menu.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.js"></script>
-<script>
-document.getElementById("mob-container").style.top= (window.innerHeight - document.getElementById("container").offsetHeight)/2 + 'px';
-document.getElementById("mob-container").style.left= (window.innerWidth - document.getElementById("container").offsetWidth)/2 + 'px';
-</script>
 </body>
 </html>
