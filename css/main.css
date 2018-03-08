@@ -232,7 +232,7 @@ header {
 
 .description {
     width: 70%;
-    font-size: 15pt;
+    font-size: 11pt;
     font-family: "Segoe UI", sans-serif;
     color: rgb(160, 205, 175);
     line-height: 1.531;
@@ -270,6 +270,25 @@ header {
     text-align: justify;
     text-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
 }
+
+.xs-about {
+    width: 90%;
+    height: 90%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 3.5vmin;
+    font-family: "Segoe UI", sans-serif;
+    color: rgb(160, 205, 175);
+    line-height: 1.531;
+    text-align: justify;
+    text-shadow: 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
+}
+
 
 .button-play {
     width: 100%;
@@ -328,7 +347,7 @@ header {
 footer {
     max-width: 100%;
     background-color: #091112;
-    height: 60px;
+    height: 45px;
     position: relative;
     z-index: 11;
 }
